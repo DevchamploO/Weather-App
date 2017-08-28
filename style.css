@@ -1,0 +1,108 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background:#CCCCCC;
+}
+
+#wrapper{
+  width:320px;
+  height:568px;
+  font-family:'Helvetica', 'Arial', sans-serif;
+  background:#2980b9;
+  text-align:center;
+  color:#ecf0f1;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+#header{
+  background:#e74c3c;
+  text-align:left;
+  padding:18px 20px;
+  font-size:13px;
+}
+
+#tempWrapper{
+  position:absolute;
+  float:left;
+  bottom:0px;
+}
+
+#degree{
+  font-size:200px;
+  display:inline-block;
+  line-height:180px;
+  color:#ecf0f1;
+  text-shadow: -8px 2px 0px #bdc3c7;
+  margin:80px 0px;
+}
+
+.forcast-row{
+  background:#2c3e50; 
+}
+
+.city-row{
+  padding:10px;
+  background:#ecf0f1;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  color:#2c3e50;
+}
+
+#forcast-detaik-row{
+  padding:10px;
+  overflow:hidden;
+  background:#34495e;
+  font-size:14px;
+}
+
+#forcast-detaik-row span{
+  font-weight:bold;
+}
+
+#btn-row{
+background:#3D566E;
+}
+
+button{
+  padding:10px;
+width:100%;
+  background:#3D566E;
+  border:none;
+  color:inherit;
+  font-weight:bold;
+  font-size:18px;
+  letter-spacing:2px;
+}
+
+#climate{
+  font-size:20px;
+  display:inline;
+  margin-bottom:60px;
+}
+
+#cityName{
+  font-size:28px;
+}
+
+#icon{
+  height:auto;
+  margin-right:30px;
+}
+
+#icon img{
+  width:50px;
+  vertical-align:middle;
+}
+
+.section{
+  display:inline-block;
+  width:33%;
+  float:left;
+  text-transform:uppercase;
+}

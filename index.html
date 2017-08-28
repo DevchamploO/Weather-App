@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+  <div id="wrapper">
+    <div id="header">
+      <h1>Weather App</h1>
+    </div>
+
+    <h1 id="degree"></h1>
+      <div class="city-row">
+      <h2 id="cityName"></h2>
+    </div>
+
+    <div class="forcast-row">
+      <span id="icon"></span>
+      <p id="climate"></p>
+    </div>
+
+  <div id="forcast-detail-row">
+    <div class="section">
+      <p>wind:
+      <span id="speed"></span>
+        m/s
+        </p>
+    </div>
+    <div class="section">
+      <p>hum:
+      <span id="hum"></span>
+        %
+        </p>
+    </div>
+    <div class="section">
+      <p>UV:
+      <span id="index"></span>
+      </p>
+    </div>
+  </div>
+    
+  <div id="btn-row">
+    <button id="celOrFahr">Celsius</button>
+  </div>
+</div>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
